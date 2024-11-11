@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFabric
 {
-    class ModernStyleFabric : IAbstractFabric
+    class ModernStyleFabric : IAbstractFabric, CreateSofa, CreateTable
     {
         private static ModernStyleFabric _instance;
 
